@@ -1,0 +1,124 @@
+/* bot code */
+
+/*a{
+    color: red;
+    text-align: center;
+    padding: 15px 30px;
+}*/
+body{
+  background-color: #243B53;
+  animation-name: whole;
+  /* animation-duration: 4s; */
+  /* animation: whole 5s 1s; */
+}
+
+/* @keyframes whole {
+  from {background-color: #243B53;}
+  to {background-color: yellow;}
+} */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #34ebdb;
+  padding: 10px;
+  font-size: 20px;
+}
+#container{
+  text-align: center;
+  padding: 50;
+}
+/* .scroll {
+                margin:4px, 4px;
+                padding:4px;
+                /* background-color: green; */
+                width: 1000px;
+                height: 510px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+                margin-left: 200px;
+            } */
+.chat{
+  /* background-color: #838383; */
+  /* background-color: #fbf4f9; */
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.chat-container{
+  /* text-align: center; */
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  background-color: #ffd5e5;
+  /* padding: 10px; */
+  margin: 10px;
+  text-align: left;
+  /* border-style: solid; */
+ border-color: #00ff00;
+}
+.chat-container p {
+  color: black;
+  background-color: #ffd5e5;
+  letter-spacing: 1px;
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  font-family:monospace;
+}
+.darker {
+  border-color: #00ff00;
+  background-color: #c0ffee;
+  margin: 10px;
+  text-align: right;
+  /* padding-left: 5px; */
+  /* padding: 5px; */
+}
+.darker p {
+  color: black;
+  background-color: #c0ffee;
+  text-align: right;
+  /* padding-left: 5px; */
+  font-size: 20px;
+  font-family:monospace;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7fff00;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+/* scroll bar */
+
+/* animi */
+#myDIV {
+  /* width: 100px;
+  height: 100px; */
+  background-color: #2cb8b1;
+  color: white;
+  animation: mymove 2s infinite;
+  font-family: serif;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px #7fff00;}
+  /* #e83e8c */
+}
+/* animi */

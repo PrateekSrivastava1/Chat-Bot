@@ -130,9 +130,6 @@ function botVoice(message){
   if(message.includes('who is Prateek Srivastava girlfriend')) {
     speech.text = "Do you really think that programmers have girlfriend ?? -_- ";
   }
-  if(message.includes('who is Prateek Srivastava best friend')) {
-    speech.text = "Pranjal Mishra 🤭, I know he is tatti but...";
-  }
   if(message.includes('who is Pranjal Mishra')) {
     speech.text = "Bhai hai mera";
   }
@@ -141,12 +138,6 @@ function botVoice(message){
   }
   if(message.includes('who is Nitin Sachan')) {
     speech.text = "Bhai hai mera";
-  }
-  if(message.includes('who is Smita Mishra')) {
-    speech.text = "My duushman 😋";
-  }
-  if(message.includes('my name is Smita Mishra')) {
-    speech.text = "hiiii Smita! how are you?";
   }
   if(message.includes("what's the time")) {
     speech.text = "I know you have good mobile phone 😎, go and check by yourself ";
